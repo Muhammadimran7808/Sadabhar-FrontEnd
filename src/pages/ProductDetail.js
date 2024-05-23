@@ -54,7 +54,7 @@ const ProductDetail = () => {
           <div className="mx-auto overflow-hidden border">
             <img
               className="image-transition md:h-96 h-60 hover:scale-110"
-              src={`/api/v1/products/product-picture/${product?._id}`}
+              src={`https://sadabahar-backend.onrender.com/api/v1/products/product-picture/${product?._id}`}
               loading="lazy"
               alt={product?.name}
             />
@@ -119,7 +119,7 @@ const ProductDetail = () => {
                   <div className="border overflow-hidden">
                     <img
                       className="image-transition hover:scale-110 w-full md:h-80 h-60"
-                      src={`/api/v1/products/product-picture/${product._id}`}
+                      src={`https://sadabahar-backend.onrender.com/api/v1/products/product-picture/${product?._id}`}
                       loading="lazy"
                       alt={product?.name}
                     />

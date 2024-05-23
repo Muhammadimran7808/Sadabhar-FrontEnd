@@ -43,7 +43,7 @@ const Products = () => {
                     <div key={product._id} className="border-2 border-gray-200 border-opacity-60 rounded-lg">
                       <img
                         className="h-52 w-full"
-                        src={`/api/v1/products/product-picture/${product._id}`}
+                        src={`https://sadabahar-backend.onrender.com/api/v1/products/product-picture/${product?._id}`}
                         loading="lazy"
                         alt={product.name}
                       />
