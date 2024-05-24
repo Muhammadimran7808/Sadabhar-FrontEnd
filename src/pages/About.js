@@ -7,7 +7,7 @@ const About = () => {
         <div className="flex items-center justify-center gap-3 md:flex-row flex-col">
           <img
             className=" md:w-2/5 md:m-5 mt-6 select-none"
-            src="https://www.freepik.com/free-vector/about-us-concept-illustration_6183551.htm#page=2&query=about%20us&position=3&from_view=keyword&track=ais_user_b&uuid=1260c4fe-360f-4a79-80da-ec1c08393056"
+            src="https://img.freepik.com/free-vector/about-us-concept-illustration_114360-669.jpg?w=1060&t=st=1716526863~exp=1716527463~hmac=86b17844d3f7024f1c950945197e9a99794eb00bbceac4d6914790db7d6c2d07"
             alt="About us"
           />
           <div className="md:w-4/12 md:p-0 p-8">
