@@ -7,7 +7,7 @@ const About = () => {
         <div className="flex items-center justify-center gap-3 md:flex-row flex-col">
           <img
             className=" md:w-2/5 md:m-5 mt-6 select-none"
-            src="%PUBLIC_URL%/images/about.jpeg"
+            src="/images/about.jpeg"
             alt="About us"
           />
           <div className="md:w-4/12 md:p-0 p-8">
