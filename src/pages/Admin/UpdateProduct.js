@@ -173,7 +173,7 @@ const UpdateProduct = () => {
               ) : (
                 <div className="flex justify-center md:w-3/4">
                   <img
-                    src={`https://sadabahar-backend.onrender.com/api/v1/products/product-picture/${id}`}
+                    src={`https://sadabahar-backend.vercel.app/api/v1/products/product-picture/${id}`}
                     alt="product_image"
                     height={"200px"}
                     width={"200px"}

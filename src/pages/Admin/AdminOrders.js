@@ -135,7 +135,7 @@ const AdminOrders = () => {
                         <div>
                           <img
                             className="h-28 w-28"
-                            src={`https://sadabahar-backend.onrender.com/api/v1/products/product-picture/${product?._id}`}
+                            src={`https://sadabahar-backend.vercel.app/api/v1/products/product-picture/${product?._id}`}
                             loading="lazy"
                             alt={product.name}
                           />

@@ -10,7 +10,7 @@ const AuthProvider = ({ children }) => {
   });
 
   //default axios
-  axios.defaults.baseURL = "https://sadabahar-backend.onrender.com";
+  axios.defaults.baseURL = "https://sadabahar-backend.vercel.app";
   axios.defaults.headers.common["Authorization"] = auth?.token;
 
   useEffect(() => {

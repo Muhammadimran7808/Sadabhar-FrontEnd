@@ -42,8 +42,8 @@ const Orders = () => {
           <div>
             {orders?.map((order, index) => (
               <div className="relative overflow-x-auto border mb-5">
-                <table className="w-full text-sm text-left rtl:text-right text-gray-500 400">
-                  <thead className="text-xs text-gray-700 uppercase bg-gray-50 0 400">
+                <table className="w-full text-sm text-left rtl:text-right text-gray-500">
+                  <thead className="text-xs text-gray-700 uppercase bg-gray-50">
                     <tr>
                       <th scope="col" className="px-6 py-3">
                         #
@@ -78,16 +78,16 @@ const Orders = () => {
                     </tr>
                   </tbody>
                 </table>
-                <div className="w-full flex flex-wrap">
+                <div className="w-full overflow-x-scroll flex flex-wrap">
                   {order?.products?.map((product) => (
                     <div
                       key={product._id}
-                      className="w-1/2 flex px-3 gap-4 py-1"
+                      className="flex px-3 gap-4 py-1"
                     >
                       <div>
                         <img
                           className="h-28 w-28"
-                          src={`https://sadabahar-backend.onrender.com/api/v1/products/product-picture/${product?._id}`}
+                          src={`https://sadabahar-backend.vercel.app/api/v1/products/product-picture/${product?._id}`}
                           loading="lazy"
                           alt={product.name}
                         />
