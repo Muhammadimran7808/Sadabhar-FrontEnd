@@ -11,7 +11,7 @@ const Contact = () => {
                     <div className='bg-indigo-500 text-center md:pb-4 md:pt-3 md:mb-3 text-white md:text-5xl text-4xl'>contact us</div>
                     <p className='text-lg pt-6'>any query and info about product feel free to call any time. we 24x7 available</p>
                     <p className='flex items-center gap-2 mt-2'><BiMailSend/>: azmatfareed787@gmail.com</p>
-                    <p className='flex items-center gap-2 mt-2'><BiPhoneCall/>: 03447032963</p>
+                    <p className='flex items-center gap-2 mt-2'><BiPhoneCall/>: 03003348155</p>
                     <p className='flex items-center gap-2 mt-2'><BiSupport/>: 1800-0000-0000 (toll free)</p>
                 </div>
             </div>
